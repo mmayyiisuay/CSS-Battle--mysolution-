@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="sq">
+    <div class="fl">
+        <div class="frist">
+        <div class="semi"></div>
+        </div>
+        <div class="second">
+        <div class="semi"></div>
+        <div class="semi"></div>
+        </div>
+    </div>
+    </div>
+</div>
+<style>
+    body {
+    margin:0;
+    background-color: #62306D;
+    }  
+    .container {
+    width: 300px;
+    height: 200px;
+    margin:50
+    }
+
+    .fl {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: stretch;  
+    flex-direction: column; 
+    }
+    .fl > div{
+    width:300px;
+    height:100px;
+    align-items: stretch;    
+    }
+
+    .frist {
+    margin-left:100;
+    transform: scaleY(-1);
+    }
+
+    .second {
+    display:flex;
+    justify-content: space-between; 
+
+    }
+    .semi {
+    height: 100px;
+    width: 100px;
+    border-radius: 0 0 5rem 5rem ;
+    background-color:#F7EC7D;
+    }
+</style>
